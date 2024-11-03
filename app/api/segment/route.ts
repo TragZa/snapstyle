@@ -31,7 +31,7 @@ export async function POST(request: Request) {
       await new Promise((resolve) => setTimeout(resolve, 10000));
     }
 
-    const response = await fetch("http://localhost:5000/api/segment", {
+    const response = await fetch("https://0015-2405-201-34-b121-9c0f-5b10-a71d-b87e.ngrok-free.app/api/segment", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
